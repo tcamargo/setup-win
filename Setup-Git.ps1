@@ -31,8 +31,8 @@ Remove-Item -Path "Registry::HKEY_CLASSES_ROOT\LibraryFolder\background\shell\gi
 Remove-Item -Path "Registry::HKEY_CLASSES_ROOT\LibraryFolder\background\shell\git_shell" -Force -Recurse
 
 # Configure Git
-git config --global user.email fdcastel@gmail.com
-git config --global user.name F.D.Castel
+git config --global user.email "camargo@discworld.com.br"
+git config --global user.name "Tiago Pierezan Camargo"
 
 # Install TortoiseGit
 choco install tortoisegit -y
