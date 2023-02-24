@@ -95,9 +95,9 @@ if ($WindowsVersion -ge 100) {
 }
 
 # Set the only Keyboard Layout to pt-BR/ABNT2
-$langList = New-WinUserLanguageList pt-BR
+$langList = New-WinUserLanguageList en-US
 $langList[0].InputMethodTips.Clear()
-$langList[0].InputMethodTips.Add('0416:00010416')
+$langList[0].InputMethodTips.Add('0416:00020409')
 Set-WinUserLanguageList $langList -Force
 
 # Disable hotkeys for switching input layout/language
