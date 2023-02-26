@@ -1,8 +1,8 @@
-setup-fdcastel
+setup-tcamargo
 ==============
 
 My personal setup scripts.
 
 ```
-iex (iwr 'https://raw.githubusercontent.com/fdcastel/setup/master/Setup-First.ps1').Content
+iex (iwr 'https://raw.githubusercontent.com/tcamargo/setup-win/master/Setup-First.ps1').Content
 ```
