@@ -99,6 +99,7 @@ $langList = New-WinUserLanguageList en-US
 $langList[0].InputMethodTips.Clear()
 $langList[0].InputMethodTips.Add('0416:00020409')
 Set-WinUserLanguageList $langList -Force
+Set-Culture pt-BR
 
 # Disable hotkeys for switching input layout/language
 $HKCUInputMethodHotKeys104 = 'HKCU:\Control Panel\Input Method\Hot Keys\00000104'
