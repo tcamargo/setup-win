@@ -137,7 +137,7 @@ $isWindowsServer = $osName -like '*Server*'
 $isVirtualMachine = $boardManufacturer -like '*Microsoft*'
 
 if ( (-not $isWindowsServer) -and (-not $isVirtualMachine) ) {
-    choco install 7zip GoogleChrome -y
+    choco install 7zip GoogleChrome powertoys -y
 
     Set-Location ($PSScriptRoot)
     
